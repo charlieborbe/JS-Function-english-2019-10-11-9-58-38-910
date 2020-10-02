@@ -17,8 +17,8 @@ function palindrome(message){
     // Compare reverseString and lowerCaseString the result to be return is Boolean
     return reverseString === lowerCaseString; // "abcba" === "abcba"? -- true     
 }
-document.write(palindrome('hello')); // should return false
-document.write(palindrome('abcba')); // should return true
+console.log(palindrome('hello')); // should return false
+console.log(palindrome('abcba')); // should return true
 
 // String with unwanted characters
-document.write(palindrome('abcba.,.,')); // should return true
+console.log(palindrome('abcba.,.,')); // should return true
